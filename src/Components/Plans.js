@@ -47,7 +47,7 @@ const Plans = () => {
 
               {/* Here I am adding functionality , that according to the price and discount the saving % get changed , dynamically we are doing this , i am not putting normally static values */}
               <p className="text-muted">
-                savings: ₹{parseInt(plan.price * (plan.discount / 100), 10)}
+                savings: ₹{parseInt(plan.price * (plan.discount / 100), 10) }
               </p>
               <p className="text-success">
                 {plan.discount}% saved{" "}
